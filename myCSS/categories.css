@@ -1,0 +1,89 @@
+#genres {
+    height: 400px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+ #genres > p{
+    font-size: 25px;
+    word-spacing: 1px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+ #genres > a{
+    text-decoration: none;
+    border-bottom: 1px solid violet;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+    padding: 7px;
+    background-color: #fff;
+}
+ #genres > a:visited{
+    color: black;
+}
+.card{
+    width: 240px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.card > h6{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card > img {
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 215px;
+    height: 300px;
+}
+.card > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.card > span {
+    font-size: 25px;
+    margin-left: 20px;
+   
+
+}
+ .card #info{
+     color: black;
+     text-decoration: none;
+     border-bottom: 1px solid violet;
+     width: 200px;
+     margin: 15px;
+     
+     
+ } 
+
+ .card #addCart{
+    background-color: #5F78DF;
+    color: #fff;
+    padding: 7px 5px;
+    text-decoration:none;
+    text-align: center;
+    border-radius: 5px;
+    width: 210px;
+    margin: 0px 0px 10px 10px;
+ }
+
+.card > #addCart:hover {
+    background-color:   #182B6A;
+    text-decoration: underline;
+   
+}
+@media screen and (max-width:750) {
+    #genres {
+        height: 800px;
+    }
+  }

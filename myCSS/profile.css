@@ -1,0 +1,15 @@
+.container{
+    width: 980px;
+
+}
+.container h4{
+   margin: 30px 0px;
+}
+.container span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.container p {
+   font-weight: normal;
+   display: inline-block;
+}

@@ -1,0 +1,41 @@
+
+.container{
+    width: 980px;
+}
+.bestimg img{
+    width: 980px;
+    height: 450px;
+    margin-top: 20px;
+ }
+.card{
+    width: 200px;
+    height: 430px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.card > h6{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 5px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card > img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 5px;
+}
+.card > span, p{
+    margin-left: 7px;
+}
+@media screen and (max-width:1010) {
+   .row{
+        width: 100px;
+        height: 200px;
+        background-attachment: fixed;
+    }
+  }
+

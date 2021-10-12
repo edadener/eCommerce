@@ -1,0 +1,140 @@
+.header{
+    height: 80px;
+    background-color: #fff;
+}
+.headerLeft {
+    float: left;
+    margin-left: 50px;
+}
+.headerLeft > img {
+    margin-top: 5px;
+}
+.headerLeft > h3{
+    margin-left: 70px;
+    margin-top: -45px;
+    font-size: 25px;
+}
+h3 > span {
+    font-weight: bold;
+}
+/* 
+/* .headerMid{
+    margin-left: 350px;
+} */
+.headerMid input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.headerMid button{
+    margin-top: 20px;
+    width: 80px;
+  
+} 
+
+.headerRight{
+    float: right;
+    margin-top: -65px;
+}
+.cart{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.cart a{
+    text-decoration: none;
+    color: rgb(41, 38, 38);
+    margin-right: 30px;
+    font-size: 20px;
+}
+.cart a:hover{
+    color: #F57D58;
+}
+.dropbtn {
+    margin-right: 10px;
+    margin-top: 10px;
+    background: none;
+    color: rgb(41, 38, 38);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-size: 20px;
+  }
+.dropbtn a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #F57D58;
+}
+.dropbtn a:hover{
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+.dropdown-content {
+    display: none;
+    left: -80px;
+    position: absolute;
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a span {
+    color: black;
+}
+.dropdown-content a {
+    color: #F57D58;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+.dropdown:hover .dropdown-content {
+    border-bottom: 2px solid #F57D58 ;
+    display: block;
+  }
+
+.navBar ul{
+   display: flex;
+}
+.navBar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 15px 45px 0px 45px;
+ 
+}
+.navBar ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 23px;
+    color: rgb(94, 90, 90);
+   
+}
+.navBar ul li a:visited {
+    color: rgb(94, 90, 90);
+}
+.navBar ul li a:hover{
+    color:#F57D58;
+}
+
+@media screen and (max-width:1200px) {
+
+ .headerRight {
+    display: none;
+ }
+
+    
+}
+@media screen and (max-width:860) {
+  .headerMid input{
+    display: none;
+  }
+}

@@ -1,0 +1,102 @@
+body{
+    background-color: #fef4f4;
+}
+.container{
+    width: 980px;
+}
+.lastSeen{
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.slider .carousel-inner .carousel-item > img{
+    width: 1000px;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+}
+
+.card{
+    width: 240px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.card > h6{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card > img {
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 220px;
+    height: 200px;
+}
+.card > span {
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.chapter6{
+    height: auto;
+    background-color: #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+.chapter6 > .popularBook {
+    width: 700px;
+    margin-left: 190px;
+    text-align: left;
+}
+.chapter6 > .popularBook > h2 , .advertisement > h5{
+    padding: 10px;
+}
+
+.chapter6 > .popularBook > img{
+    width: 600px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.chapter6 > .popularBook button {
+    width: 240px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EDA5B3;
+}
+.chapter6 > .popularBook button a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.chapter6 > .advertisement {
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.chapter6 > .advertisement a{
+    color: black;
+    text-decoration: none;
+  
+}
+.chapter6 > .advertisement img {
+    width: 200px;
+    height: 300px;
+    background-attachment: fixed;
+}
+

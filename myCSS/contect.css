@@ -1,0 +1,26 @@
+.container{
+    width: 980px;
+}
+.container .map img{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+
+}
+
+.container .row {
+    margin-top: 30px;
+}
+.container .row .contact {
+    text-align: left;
+    margin-top: 60px;
+   
+}
+.container > .row > .contact > a{
+    margin-left: 60px;
+    text-decoration: none;
+    display: block;
+    color: rgb(56, 50, 50);
+    font-size: 16px;
+    padding: 15px;
+}

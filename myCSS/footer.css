@@ -1,0 +1,30 @@
+.footer{
+    margin-top: 20px;
+    background-color: #fef4f4;
+}
+.footer .row{
+    margin-top: 20px;
+}
+.footer .row .downLogo img {
+    margin-bottom: 20px;    
+}
+.footer > .row > .category > a{
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   color: rgb(56, 50, 50);
+   font-size: 18px;
+}
+.footer > .row > .category > a:hover{
+    text-decoration: underline;
+}
+.footer > .row > .siteMap > a{
+    text-decoration: none;
+    display: block;
+    color: rgb(56, 50, 50);
+    font-size: 16px;
+    padding: 7px;
+}
+.footer > .row > .siteMap > a:hover {
+    text-decoration: underline;
+}
